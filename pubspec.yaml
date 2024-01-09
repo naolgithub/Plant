@@ -1,0 +1,42 @@
+name: plant
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+  carousel_slider: ^4.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/icons/
+
+
+  fonts:
+    - family: gilroy
+      fonts:
+        - asset: assets/fonts/Gilroy-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Gilroy-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Gilroy-Medium.ttf
+          weight: 500
